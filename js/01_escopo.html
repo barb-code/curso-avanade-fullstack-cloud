@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Escopo Javascript</title>
+        <meta charset="utf-8"> 
+    </head>
+    <body>
+        <script>
+            
+            let name = 'Lícia'
+            {
+                let name = 'Bárbara'
+                console.log(name)
+            }
+        
+            console.log(name)
+
+           const helloName = function name(){
+                let name = 'Machado'
+                console.log(name)
+            }
+
+            helloName()
+
+        </script>
+    </body>
+</html>
